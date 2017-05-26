@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graybackground" translatesAutoresizingMaskIntoConstraints="NO" id="G7Y-6a-FBN"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Damian Charczuk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBr-Zk-tct">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="PAy-ls-yd6"/>
+                                    <constraint firstAttribute="width" constant="412" id="eHz-uI-qpL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Grade Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVZ-7b-5aV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="GBH-LV-RFO"/>
+                                    <constraint firstAttribute="width" constant="481" id="Gpm-ff-ZiL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WBr-Zk-tct" firstAttribute="top" secondItem="zVZ-7b-5aV" secondAttribute="bottom" constant="302" id="04i-5H-7V1"/>
+                            <constraint firstItem="WBr-Zk-tct" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2m7-nF-eXE"/>
+                            <constraint firstAttribute="trailing" secondItem="G7Y-6a-FBN" secondAttribute="trailing" id="Qq9-Qp-a3Y"/>
+                            <constraint firstItem="zVZ-7b-5aV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Rud-Q8-NoH"/>
+                            <constraint firstItem="G7Y-6a-FBN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ZGB-2D-JuA"/>
+                            <constraint firstItem="zVZ-7b-5aV" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="238" id="ZkA-XU-XCW"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="G7Y-6a-FBN" secondAttribute="bottom" id="os3-LY-T4a"/>
+                            <constraint firstItem="G7Y-6a-FBN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="szu-yk-pm1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.34375" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="graybackground" width="1350" height="810"/>
+    </resources>
+</document>
